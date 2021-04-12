@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "mikestead.dotenv",
+    "msjsdiag.debugger-for-chrome",
+    "octref.vetur",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+  ],
+  "unwantedRecommendations": [
+    "esbenp.prettier-vscode"
+  ]
+}
