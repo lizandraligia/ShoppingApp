@@ -1,11 +1,11 @@
 {
-  "name": "template",
+  "name": "shoppingapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "react-native run-android --port 9988",
     "ios": "react-native run-ios",
-    "start": "react-native start",
+    "start": "react-native start --port 9988",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
