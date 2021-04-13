@@ -7,11 +7,11 @@ const Stack = createStackNavigator();
 import LoginScreen from './src/screens/login/login';
 
 export default function App() {
-    return (
-        <NavigationContainer>
-            <Stack.Navigator screenOptions={{ headerShown: false }}>
-                <Stack.Screen name="Login" component={LoginScreen} />
-            </Stack.Navigator>
-        </NavigationContainer>
-    );
+  return (
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="Login" component={LoginScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }

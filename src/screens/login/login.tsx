@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-import { Container } from './login.styles';
-import { View, Text, SafeAreaView } from 'react-native';
-import { Button } from 'react-native-paper';
+import { Container, View } from './login.styles';
+import { Button, TextInput } from 'react-native-paper';
 
-export default class Login extends Component {
-    render() {
-        return (
-            <Container>
-                <Text>loginnnn</Text>
-                <Button  mode="contained" onPress={() => console.log('Pressed')}>
-                    Press me
-                </Button>
-            </Container>
-        );
-    }
+export default function Login() {
+
+  return (
+    <Container>
+      <View>
+        <TextInput mode='outlined' label='Login' />
+      </View>
+      <View>
+        <TextInput mode='outlined' label='Senha' secureTextEntry={true} />
+      </View>
+      <Button mode='contained' onPress={() => console.log('Pressed')}>
+        Entrar
+        </Button>
+    </Container>
+  );
+
 }
